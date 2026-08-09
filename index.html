@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Currency Converter</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="converter-card">
+      <h2>Currency Conversion</h2>
+      
+      <div class="input-group">
+        <label>YOU SEND</label>
+        <div class="row">
+          <div class="custom-dropdown" id="from-dropdown">
+            <div class="dropdown-header">
+              <span class="selected-symbol">$</span>
+              <span class="selected-text">USD</span>
+              <span class="arrow">▼</span>
+            </div>
+
+            <ul class="dropdown-list">
+              <li data-value="USD" data-symbol="$" class="selected">
+                <span class="left"><span class="sym">$</span> USD</span>
+                <span class="right">US Dollar</span>
+              </li>
+              <li data-value="EUR" data-symbol="€">
+                <span class="left"><span class="sym">€</span> EUR</span>
+                <span class="right">Euro</span>
+              </li>
+              <li data-value="PKR" data-symbol="₨">
+                <span class="left"><span class="sym">₨</span> PKR</span>
+                <span class="right">Pakistani Rupee</span>
+              </li>
+              <li data-value="INR" data-symbol="₹">
+                <span class="left"><span class="sym">₹</span> INR</span>
+                <span class="right">Indian Rupee</span>
+              </li>
+              <li data-value="JPY" data-symbol="¥">
+                <span class="left"><span class="sym">¥</span> JPY</span>
+                <span class="right">Japanese Yen</span>
+              </li>
+              <li data-value="CAD" data-symbol="C$">
+                <span class="left"><span class="sym">C$</span> CAD</span>
+                <span class="right">Canadian Dollar</span>
+              </li>
+            </ul>
+          </div>
+
+          <input type="number" id="amount" value="100" min="1" />
+        </div>
+      </div>
+
+      <button id="swap-btn" class="swap-btn">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="20"
+          height="20"
+          fill="currentColor"
+          viewBox="0 0 24 24"
+        >
+          <path d="M6 22h2V8h4L7 2 2 8h4zM19 2h-2v14h-4l5 6 5-6h-4z"></path>
+        </svg>
+      </button>
+
+      <div class="input-group">
+        <label>THEY GET</label>
+        <div class="row">
+          <div class="custom-dropdown" id="to-dropdown">
+            <div class="dropdown-header">
+              <span class="selected-symbol">₹</span>
+              <span class="selected-text">INR</span>
+              <span class="arrow">▼</span>
+            </div>
+
+            <ul class="dropdown-list">
+              <li data-value="USD" data-symbol="$">
+                <span class="left"><span class="sym">$</span> USD</span>
+                <span class="right">US Dollar</span>
+              </li>
+              <li data-value="EUR" data-symbol="€">
+                <span class="left"><span class="sym">€</span> EUR</span>
+                <span class="right">Euro</span>
+              </li>
+              <li data-value="PKR" data-symbol="₨">
+                <span class="left"><span class="sym">₨</span> PKR</span>
+                <span class="right">Pakistani Rupee</span>
+              </li>
+              <li data-value="INR" data-symbol="₹" class="selected">
+                <span class="left"><span class="sym">₹</span> INR</span>
+                <span class="right">Indian Rupee</span>
+              </li>
+              <li data-value="JPY" data-symbol="¥">
+                <span class="left"><span class="sym">¥</span> JPY</span>
+                <span class="right">Japanese Yen</span>
+              </li>
+              <li data-value="CAD" data-symbol="C$">
+                <span class="left"><span class="sym">C$</span> CAD</span>
+                <span class="right">Canadian Dollar</span>
+              </li>
+            </ul>
+          </div>
+
+          <div id="result-value" class="result-display">0.00</div>
+        </div>
+      </div>
+
+      <div class="footer-info">
+        <span id="rate-text">1 USD = 0.00 INR</span>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
