@@ -7,8 +7,18 @@
 [![Watch on YouTube](https://img.shields.io/badge/▶-Watch%20on%20YouTube-red?style=for-the-badge&logo=youtube)](#)
 [![Level](https://img.shields.io/badge/Level-Beginner%20to%20Advanced-yellow?style=for-the-badge)](#)
 [![Duration](https://img.shields.io/badge/Duration-4%20Hours-black?style=for-the-badge)](#)
-
+## 📽️ Watch the on YouTube
+🎥 **YouTube:** *(https://youtu.be/WYcYQ-O4HDE)*
 </div>
+
+---
+
+## 📸 Preview
+
+![Command Palette Preview](https://github.com/frontend-mastery12/JavaScript-Course/blob/9349c1716c5d459365f39d2d6025c12aebbd0400/thumbnail.png)
+
+**
+---
 
 ---
 
@@ -50,7 +60,7 @@ A fully functional **Currency Converter** — custom dropdowns, live exchange ra
 
 For extra practice alongside this course, I highly recommend:
 
-📘 **[A Smarter Way to Learn JavaScript](https://www.asmarterwaytolearn.com/)** — pairs short chapters with free interactive exercises so concepts actually stick.
+📘 **[A Smarter Way to Learn JavaScript](https://github.com/frontend-mastery12/JavaScript-Course/blob/9349c1716c5d459365f39d2d6025c12aebbd0400/JavaScript-Book.pdf)** — pairs short chapters with free interactive exercises so concepts actually stick.
 
 ---
 
