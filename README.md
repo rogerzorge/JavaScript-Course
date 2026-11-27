@@ -53,6 +53,7 @@ A fully functional **Currency Converter** — custom dropdowns, live exchange ra
 - Complete beginners with **zero programming experience**
 - Anyone who's finished the HTML & CSS courses and is ready for JavaScript
 - Developers who know *some* JavaScript but want to solidify modern ES6+ fundamentals
+- For me
 
 ---
 
