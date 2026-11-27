@@ -1,3 +1,5 @@
+// JS couses for beginners
+
 const amountInput = document.getElementById("amount");
 const fromDropdown = document.getElementById("from-dropdown");
 const toDropdown = document.getElementById("to-dropdown");
